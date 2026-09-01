@@ -119,3 +119,9 @@ paper uses the transposed form. `scripts/train/stage3b_sweep_train.py` takes
 ## Citation
 
 Please cite the paper. A `CITATION.cff` will be added on acceptance.
+
+## License
+
+MIT, see `LICENSE`. This covers the code in this repository only. It grants no
+rights over MIMIC-IV, the Penn Medicine ADRD extract or the OneFlorida+ extract,
+each of which carries its own agreement and none of which is distributed here.

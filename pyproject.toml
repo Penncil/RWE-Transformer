@@ -7,6 +7,8 @@ name = "rwet"
 version = "0.1.0"
 description = "RWE-Transformer: debiased representations for real-world evidence"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
 
 [tool.setuptools]
 packages = ["rwet"]
