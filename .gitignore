@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------------------
+# Patient data must never enter this repository.
+#
+# MIMIC-IV is governed by a PhysioNet Data Use Agreement and may not be
+# redistributed. The Penn Medicine and OneFlorida+ extracts are institutional
+# data derived from protected health information. The rules below deny data
+# formats by default, with no exceptions. This repository carries code only:
+# result tables derived from those cohorts stay with the cohorts rather than
+# travelling separately, aggregate or not. Do not add a `!` rule to re-admit one.
+# ---------------------------------------------------------------------------
+
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.feather
+*.pkl
+*.pickle
+*.msgpack
+*.npy
+*.npz
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.db
+*.sqlite
+
+results/
+work/
+data/
+rwe-data/
+Dropbox_folder/
+data_mimic/
+
+# credentials
+.env
+*.pem
+*.key
+credentials*
+secrets*
+
+# build and editor noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+*.log

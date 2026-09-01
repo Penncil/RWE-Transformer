@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rwet"
+version = "0.1.0"
+description = "RWE-Transformer: debiased representations for real-world evidence"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["rwet"]
